@@ -1,0 +1,25 @@
+CREATE TABLE Challenges (
+    userid INT(10) NOT NULL,
+    challenge_date VARCHAR(10) NOT NULL,
+    challenge_date_ngotiable VARCHAR(2) NOT NULL,
+    challenge_time VARCHAR(6) NOT NULL,
+    challenge_time_negotiable VARCHAR(2) NOT NULL,
+    team_size INT(3) NOT NULL,
+    substitutes INT(3) NOT NULL,
+    address VARCHAR(200) NOT NULL,
+    address_negotiable VARCHAR(2) NOT NULL,
+    challenge_type VARCHAR(20) NOT NULL,
+    challenge_amount VARCHAR(10) NOT NULL,
+    age_limit VARCHAR(20) NOT NULL,
+    FOREIGN KEY (userid) REFERENCES Users(userid)
+)
+
+CREATE TABLE Users (
+    userid INT(10) PRIMARY KEY,
+    firstname VARCHAR(10) NOT NULL,
+    lastname VARCHAR(10) NOT NULL,
+    email VARCHAR(20) NOT NULL,
+    password VARCHAR(60) NOT NULL,
+    contact INT(11) NOT NULL,
+    age VARCHAR(3) NOT NULL
+)

@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans|Permanent+Marker&display=swap);
+#challenges {
+    /* border: 1px solid red; */
+    margin-top: 16%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.challenge {
+    /* border: 1px solid red; */
+    box-shadow: 0px 2px 8px 3px gray;
+    padding-top: 1%;
+    background-color: #F3F4F6;
+    color: #2C2C2C;
+    margin-top: 5%;
+}
+
+.challenge p:nth-child(4) {
+    /* margin-top: 1%; */
+}
+
+.challenge > p {
+    /* border: 1px solid red; */
+    width: 38%;
+    padding-left: 1%;
+
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.challenge span {
+    /* border: 1px solid red; */
+    float: right;
+    width: 28%;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.challenge span > p {
+    /* border: 1px solid red; */
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.challenge span div p {
+    /* border: 1px solid red; */
+    display: inline-block;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.challenge span div p:nth-child(1) {
+    margin-right: 5%;
+}
+
+.accept {
+    display: block;
+    width: 100%;
+    background: #6DB432;
+    border: none;
+    color: #F3F4F6;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}

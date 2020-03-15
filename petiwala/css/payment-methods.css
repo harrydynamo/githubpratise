@@ -1,0 +1,49 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+ul li img {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+#online-methods {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+}
+.first {
+    /* border: 1px solid red; */
+    font-weight: bold;
+}
+
+.second {
+    /* border: 1px solid red; */
+    float: right;
+}
+
+@media only screen and (min-width: 1600px) {
+    #payment-methods {
+        /* border: 1px solid red; */
+        width: 70%;
+        margin-left: 15%;
+        padding: 0% 0% 6%;
+        list-style-type: none;
+
+    }
+
+    #payment-methods > li {
+        display: inline-block;      
+    }
+
+    #online-methods {
+        /* border: 1px solid red; */
+        border-bottom: none;
+    }
+
+    #bank-details {
+        padding: 2% 5% 5% 5%;
+        /* border: 1px solid red; */
+        float: right;
+    }
+}
