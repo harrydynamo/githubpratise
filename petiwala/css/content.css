@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Merienda+One|Titillium+Web&display=swap);
+#service-details {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+#header {
+    /* border: 1px solid red; */
+    margin-top: 0%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    font-size: 1.4em;
+    background-color: #474f85;
+    color: #f3ecd3;
+    font-family: 'Titillium Web';
+}
+
+.sub-title {
+    /* border: 1px solid red; */
+    font-size: 1.1em;
+    font-family: 'Titillium Web';
+}
+
+.head {
+    /* border: 1px solid red; */
+    font-size: 1.1em;
+    font-family: 'Titillium Web';
+}
+
+.content {
+    /* border: 1px solid red; */
+    font-size: 0.9em;
+    font-family: 'Titillium Web';
+}
+
+@media only screen and (min-width: 1600px) {
+    #service-details {
+        /* border: 1px solid red; */
+        width: 70%;
+        margin-left: 15%;
+    }
+    #header {
+        /* border: 1px solid red; */
+        padding: 1% 0% 1% 0%;
+        font-size: 2.5em;
+    }
+    
+    .sub-title {
+        /* border: 1px solid red; */
+        font-size: 2em;
+        font-family: 'Titillium Web';
+    }
+    
+    .head {
+        /* border: 1px solid red; */
+        font-size: 2em;
+        font-family: 'Titillium Web';
+    }
+    
+    .content {
+        /* border: 1px solid red; */
+        font-size: 1.2em;
+        font-family: 'Titillium Web';
+    }   
+}
+
+@media only screen and (min-width: 1080px) {
+
+}

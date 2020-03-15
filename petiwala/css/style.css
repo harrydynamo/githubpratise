@@ -1,0 +1,1200 @@
+@import url(https://fonts.googleapis.com/css?family=Merienda+One|Source+Sans+Pro&display=swap);
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+    background-color: #f3ecd3;
+    z-index: 3;
+    padding-bottom: 2%;
+}
+
+#navbar #nav_logo {
+    /* border: 1px solid red;  */
+    display: inline-block;
+    margin-top: 2%;
+    width: 30%;
+    margin-left: 30%;
+}
+
+#navbar #nav_logo img {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#direct_call {
+    text-decoration: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    font-size: 0.5em;
+    background-color: lightgreen;
+    padding: 2% 3% 2% 3%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 0.6em;
+    color: #333;
+}
+
+.menu_icon {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}
+
+/* MENU */
+.menu {
+    display: inline-block;
+    position: fixed;
+    top: 0% ;
+    z-index: 5;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    transition-duration: 0.1s;
+}
+
+.menu ul {
+    /* border: 1px solid white; */
+    padding: 0%;
+    margin-top: 15%;    
+}
+
+.menu ul li {
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-top: 5%;
+}
+.menu ul li { 
+    /* border: 1px solid white; */
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.menu img {
+    /* border: 1px solid white; */
+    width: 5%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+/* MAIN INTRO */
+#intro {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    background-image: url('../images/Shades-of-Grey-Bedroom-Interior-Decor_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#overlay {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: #474f85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}  
+
+#intro .intro_bg p {
+    /* border:  1px solid red; */
+    display: inline-block;
+    z-index: 1;
+    font-size: 1em;
+    color: white;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    font-family: 'Merienda One', cursive;    
+}
+
+#intro .intro_bg h1 {
+
+    position: absolute;
+    font-family: 'Merienda One', cursive;
+    display: inline-block;
+    /* border: 1px solid red; */
+    font-weight: bolder;
+    font-size: 1em;
+    z-index: 1;
+    transform: translateY(-50%);
+    top: 45%;
+    left: 40%;
+    color: white;
+}
+
+.intro_img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    /* border: 1px solid red; */
+}
+
+/* Contact Details */
+#contact_details {
+    /* border: 1px solid red; */
+    background-color: #474f85;
+}
+
+#contact_details .address {
+    /* border: 1px solid red; */
+    width: 45%;
+    font-family: sans-serif;
+    border-left: 1px solid gray ;
+    margin-bottom: 1%;
+    padding-bottom: 5%;
+}
+
+#contact_details .title {
+    margin-top: 0px;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 5% 0 5% 0;
+}
+
+#contact_details .header {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #929292;
+}
+
+.call {
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f3f9fb;
+    color: #f3f9fb;
+}
+#contact_details .address #location {
+    color: #f3ecd3;
+    margin-left: 5%;
+    font-size: 0.6em;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    background-color: #474f85;
+    display: inline-block;
+    font-size: 1em;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.phone_number {
+    color: #f3ecd3;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.seperator {
+    color: whitesmoke;
+    font-size: 0.7em;
+}
+
+/*Achivements*/
+#achivements {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10% 0 10% 0;
+}
+
+#achivements ul {
+    padding: 0 16% 0 16%;
+}
+
+#achivements ul li {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    margin-top: 5%;
+}
+
+#achivements ul li img {
+    width: 30%;
+    height: 30%;
+}
+
+#achivements ul li p {
+    display: inline-block;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+    font-size: 1.4em;
+}
+
+/* MAIN SERVICES */
+
+#services {
+    background-color: #f3f9fb;
+    /* position: relative; */
+    padding: 10% 0 10% 0;
+}
+
+#services #types ul:first-of-type {
+    margin-top: 12%;
+}
+
+#services #types ul {
+    padding: 0px 15% 0 15%;
+    list-style-type: none;
+}
+
+#services #head p:nth-child(1) {
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#services #head p:nth-child(2) {
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    font-size: 0.9em;
+    padding: 0 5% 5% 5%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#services #types ul li {
+    margin-top: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #51e3d4;
+    /* border: 1px solid red; */
+    padding: 3% 0 3% 0;
+    transition-duration: 0.2s;
+}
+
+#services #types ul li:hover {
+    box-shadow: 5px 5px 10px gray;
+    /* border: 1px solid red; */
+    transition-duration: 0.2s;
+}
+
+#services #types ul li img {
+    /* border: 1px solid red; */
+    height: 100px;
+    margin-top: 2%;
+}
+
+#services #types ul li p.type_name {
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+
+}
+
+/*REACH US */
+
+#reach_us {
+    position: relative;
+    text-align: center;
+    padding: 15% 2.5% 15% 2.5%;
+    background-image: url('../images/Housing-Society.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#reach_us #info {
+    z-index: 1;
+}
+
+#reach_us #info p {
+    z-index: 2;
+    color: white;
+}
+#reach_us_overlay {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #0000008A;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#reach_us #info p {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+
+#reach_us #info button {
+    padding: 3% 10% 3% 10%;
+    background-color: #fac72c;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/*Footer */
+#footer {
+    background-color: #474f85;
+    /* border: 1px solid red; */
+    padding-bottom: 0.5%;
+}
+
+#footer > div > ul {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#footer > div > ul li {
+    list-style-type: none;
+}
+
+#footer > div > ul li:first-of-type {
+    list-style-type: none;
+    padding: 0% 0 0 5%;
+}
+#footer > div > ul li:first-of-type p {
+    color: #f3f9fb;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#footer > div > ul li:first-of-type img {
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 36%;
+    margin-top: 5%;    
+}
+
+#footer #logo {
+    border-bottom: 1px solid #8eabc3;
+}
+
+/* Footer CONTACT */
+#ftr_contact {
+    margin-left: 5%;
+    margin-top: 5%;
+} 
+#footer #ftr_contact i.fa-phone {
+    color: #f3f9fb;
+    width: 100%;
+    height: 100%;
+}
+
+#ftr_contact #phone_border {
+    display: inline-block;
+    border: 1px solid #f3f9fb;
+    padding: 2% 2% 2% 2%;
+    border-radius: 100%;
+    border-width: 2px;
+    
+}
+
+#ftr_contact p {
+    /* border: 1px solid red; */
+    color: #f3f9fb;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+.phone_number {
+    color: #f3ecd3;
+    font-family: sans-serif;
+    font-size: 0.7em;
+    
+}
+
+#ftr_contact .seperator {
+    color: whitesmoke;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+/*Footer MAIL*/
+
+#footer #ftr_mail .fa-envelope {
+    color: #f3f9fb;
+}
+
+#footer #ftr_mail #mail_border {
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid #f3f9fb;
+    padding: 2% 2% 2% 2%;
+}
+
+#footer #ftr_mail a {
+    color: #f3ecd3;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+#footer #ftr_mail {
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
+/*Footer ADDRESS*/
+#ftr_address {
+    padding-right: 5%;
+}
+#ftr_address p {
+    color: #f3ecd3;
+    font-family: sans-serif;
+    padding-left: 5%;
+    font-size: 0.7em;
+}
+
+#ftr_address h2 {
+    font-family: sans-serif;
+    color: #f3f9fb;
+    padding-left: 5%;
+    font-size: 1em;
+}
+
+/*Footer Copyright*/
+
+#copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.8em;
+    padding: 2% 8% 2% 8%;
+    font-family: sans-serif;
+}
+
+/* CALLBACK MODAL */
+#callback_modal {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    /* border: 1px solid red; */
+    width: 80%;
+    z-index: 5;
+    background-color: #f3f9fb;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+#callback_modal span {
+    /* border: 1px solid red; */
+    display: block;
+    margin-top: 0%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #51e3d4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2% 0% 2% 0%;
+}
+
+#callback_modal span h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #f3f9fb;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+}
+
+#callback_modal input[type='tel'] {
+    /* border: 1px solid red; */
+    padding: 2% 0% 2% 3%;
+}
+
+#callback_modal a {
+    border: 1px solid red;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    background: linear-gradient(to bottom right, #99ff99 20%, #009900 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#callback_modal span img {
+    /* border: 1px solid red; */
+    width: 7%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+/* DESKTOP STYLE MIN WIDTH 1280 */
+@media screen and (min-width: 1280px) {
+    .menu_icon {
+        /* border: 1px solid red; */
+        display: none;    
+    }
+    
+    /* MENU */
+    .menu {
+        /* display: inline-block; */
+        position: fixed;
+        top: 10% ;
+        /* z-index: 5; */
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 15%;
+        background-color: white;
+    }
+    
+    .menu ul {
+        /* border: 1px solid white; */
+        padding: 0%;
+        
+        margin-top: 15%;    
+    }
+    
+    .menu ul li {
+        /* border: 1px solid white; */
+        text-align: left;
+        padding: 5% 5% 5% 10%;
+        list-style-type: none;
+        margin-top: 10%;
+        color: black;
+        width: 100%;
+        font-size: 1.2em;
+        font-family: 'Source Sans Pro', sans-serif;
+        transition-property: all;
+        transition-duration: 0.2s;
+    }
+
+    .menu ul li:hover {
+        font-weight: bold;
+        color: gray;
+    }
+
+    .menu img {
+        display: none;
+    }
+
+    #main{
+        /* border: 1px solid red; */
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    /* NANVBAR */
+    #navbar {
+        padding-bottom: 0%;
+    }
+    
+    #navbar #nav_logo {
+        /* border: 1px solid red; */
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    #direct_call::after {
+        /* border: 1px solid red; */       
+        content: 'CALL NOW  :8108053583';
+    }
+
+    #direct_call {
+        text-decoration: underline;
+        background: none;
+        right: 14%;
+        top: 1.5%;
+        font-size: 1.2em;
+        padding: 0.5% 1% 0.5% 1%;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+    /* INTRO */
+    #intro {
+        height: 600px;
+        /* border: 1px solid red; */
+    }
+
+    #intro .intro_bg p {
+        /* border:  1px solid red; */
+        font-size: 3em;
+    }
+    
+    #intro .intro_bg h1 {
+        /* border: 1px solid red; */
+        font-size: 3em;;
+    }
+
+    .intro_img {
+        width: 30%;
+        height: 60%;
+        left: 10%;
+        /* border: 1px solid red; */
+    }
+
+
+    /* Contact Details */
+    #contact_details .address {
+        /* border: 1px solid red; */
+        padding-bottom: 2%;
+    }
+
+    #contact_details .title {
+        /* border: 1px solid red; */
+        font-size: 1em;
+        padding: 1% 0 1% 0;
+    }
+
+    #contact_details .header {
+        font-size: 1.2em;
+    }
+
+    #contact_details .address #location {
+        font-size: 0.9em;
+    }
+
+    .seperator {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    
+    /* ACHIEVEMENTS */
+    #achivements {
+        padding: 0 0 5% 0;    
+        /* border: 1px solid red; */
+    }
+
+    #achivements ul {
+        /* border: 1px solid red; */
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #achivements ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        width: 22%;
+        height: 100%;
+        border-left: 2px solid #f3ecd3;
+        border-left-style: dotted;
+    }
+
+    #achivements ul li:nth-child(1) {
+        border-left: none;
+    }
+
+    #achivements ul li p {
+        font-size: 1em;
+    }
+
+    /* SERVICES */
+    #services {
+        padding: 2% 0 10% 0;
+    }
+
+    #services #head p:nth-child(1) {
+        /* border: 1px solid red; */
+        font-size: 2em;
+    }
+
+    #services #head p:nth-child(2) {
+        /* border: 1px solid red; */
+        padding: 0%;
+    }
+
+    #services #types ul:first-of-type {
+        margin-top: 0%;
+    }
+
+    #services #types ul {
+        /* border: 1px solid red; */
+        padding: 0% 0% 0 0%;
+    }
+
+    #services #types ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        padding: 1% 5% 1% 5%;
+        margin-left: 5%;
+    }
+
+    #services #types ul:nth-child(2) {
+        text-align: center;
+    }
+
+    #services #types ul li img {
+        /* border: 1px solid red; */
+        height: 90px;
+    }
+
+    /* REACH US */
+    #reach_us {
+        padding: 5% 0% 5% 0%;
+    }
+
+    #reach_us #info button {
+        padding: 1% 4% 1% 4%;
+    }
+
+    /* FOOTER */   
+
+    #footer ul {
+        /* border: 1px solid red; */
+        padding: 0%;
+    }
+
+    #footer ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    #footer #logo {
+        border-bottom: none;
+        width: 40%;
+    }
+
+    #footer > div > ul li:first-of-type img {
+        width: 40%;
+        /* border: 1px solid red; */
+        margin-left: 5%;
+    }
+    #footer > div > ul li:first-of-type {
+        padding: 0;
+        margin: 0;
+        
+    }
+    #footer > div > ul li:first-of-type p {
+        font-size: 1em;
+        /* border: 1px solid red; */
+        /* padding: 0 5% 0 0; */
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #footer #ftr_mail #mail_border {
+        /* border: 1px solid red; */
+        padding: 2% 3% 2% 3%;
+    }
+    #footer #ftr_contact {
+        padding-top: 2%;
+    }
+
+    #footer #ftr_contact #phone_border {
+        padding: 2% 2.5% 1% 2.5%;
+    }
+        
+    #ftr_contact p {
+        /* border: 1px solid red; */
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .phone_number {
+        font-size: 1em;
+    }
+
+    #footer #ftr_mail p {
+        font-size: 1em;
+    }
+
+    /*Footer ADDRESS*/
+    #footer #ftr_address {
+        /* border: 1px solid red; */
+        width: 30%;
+        padding-left: 2%;
+    }
+
+    #footer #ftr_address #location {
+        font-size: 1em;
+    }
+
+    #navbar #nav_logo {
+        /* border: 1px solid red; */
+        width: 12%;
+        display: inline-block;
+        margin-left: 15%;
+    }
+
+    #navbar #nav_logo img {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    #copyright {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 0.5% 8% 0.5% 8%;
+    }   
+
+    /* CALLBACK MODAL */ 
+    #callback_modal {
+        top: 30%;
+        left: 40%;
+        /* border: 1px solid red; */
+        width: 30%;
+    }
+
+    #callback_modal input[type='tel'] {
+        /* border: 1px solid red; */
+        padding: 2% 0% 2% 3%;
+    }
+
+    #callback_modal a {
+        /* border: 1px solid red; */
+        border-radius: 10px;
+    }
+
+    #callback_modal span img {
+        /* border: 1px solid red; */
+        width: 5%;
+        height: 10%;
+        position: absolute;
+        top: 12%;
+        right: 5%;
+    }
+}
+
+/*DESKTOP STYLE MIN WIDTH 1920px*/
+@media screen and (min-width: 1600px) {
+
+    /* MENU */
+    .menu {
+        top: 10% ;
+        /* border: 1px solid red; */
+    }
+
+    /* MAIN */
+    #main{
+        /* border: 1px solid red; */
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    /* NANVBAR */
+    #navbar {
+        /* border: 1px solid red; */
+        margin-top: 0px;
+        padding-bottom: 0%;
+    }
+
+    #navbar #nav_logo {
+        /* border: 1px solid red; */
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    #direct_call span {
+        display: none;
+    }
+
+    #direct_call::after {
+        /* border: 1px solid red; */       
+        content: 'CALL NOW  :8108053583';
+    }
+
+    #direct_call {
+        text-decoration: underline;
+        background: none;
+        right: 14%;
+        top: 25%;
+        font-size: 1.2em;
+        padding: 0.5% 1% 0.5% 1%;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+    /* INTRO */
+    #intro {
+        height: 600px;
+        /* border: 1px solid red; */
+    }
+
+    #intro .intro_bg p {
+        /* border:  1px solid red; */
+        font-size: 3em;
+    }
+    
+    #intro .intro_bg h1 {
+        /* border: 1px solid red; */
+        font-size: 3em;;
+    }
+
+    .intro_img {
+        width: 30%;
+        height: 75%;
+        top: 15%;
+        left: 10%;
+        /* border: 1px solid red; */
+    }
+
+    /* Contact Details */
+    #contact_details .address {
+        /* border: 1px solid red; */
+        padding-bottom: 2%;
+    }
+
+    #contact_details .title {
+        /* border: 1px solid red; */
+        font-size: 1em;
+        padding: 1% 0 1% 0;
+    }
+
+    #contact_details .header {
+        font-size: 1.2em;
+    }
+
+    #contact_details .address #location {
+        font-size: 0.9em;
+    }
+
+    .seperator {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    
+    /* ACHIEVEMENTS */
+    #achivements {
+        padding: 0 0 5% 0;    
+        /* border: 1px solid red; */
+    }
+
+    #achivements ul {
+        /* border: 1px solid red; */
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #achivements ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        width: 22%;
+        height: 100%;
+        border-left: 2px solid #f3ecd3;
+        border-left-style: dotted;
+    }
+
+    #achivements ul li:nth-child(1) {
+        border-left: none;
+    }
+
+    #achivements ul li p {
+        font-size: 1em;
+    }
+
+    /* SERVICES */
+    #services {
+        padding: 2% 0 10% 0;
+    }
+
+    #services #head p:nth-child(1) {
+        /* border: 1px solid red; */
+        font-size: 2em;
+    }
+
+    #services #head p:nth-child(2) {
+        /* border: 1px solid red; */
+        padding: 0%;
+    }
+
+    #services #types ul:first-of-type {
+        margin-top: 0%;
+    }
+
+    #services #types ul {
+        /* border: 1px solid red; */
+        padding: 0% 0% 0 0%;
+    }
+
+    #services #types ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        padding: 1% 5% 1% 5%;
+        margin-left: 5%;
+    }
+
+    #services #types ul:nth-child(2) {
+        text-align: center;
+    }
+
+    #services #types ul li img {
+        /* border: 1px solid red; */
+        height: 90px;
+    }
+
+    /* REACH US */
+    #reach_us {
+        padding: 5% 0% 5% 0%;
+    }
+
+    #reach_us #info button {
+        padding: 1% 4% 1% 4%;
+    }
+
+    /* FOOTER */
+
+    #footer ul {
+        /* border: 1px solid red; */
+        padding: 0%;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #footer ul li {
+        display: inline-block;
+        /* border: 1px solid red; */
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    #footer #logo {
+        border-bottom: none;
+        width: 40%;
+    }
+
+    #footer > div > ul li:first-of-type img {
+        width: 40%;
+        /* border: 1px solid red; */
+        margin-left: 5%;
+    }
+    #footer > div > ul li:first-of-type {
+        padding: 0%;
+        margin: 0;
+        text-align: center;
+    }
+    #footer > div > ul li:first-of-type p {
+        font-size: 1em;
+        /* border: 1px solid red; */
+        /* padding: 0 5% 0 0; */
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #footer #ftr_mail #mail_border {
+        /* border: 1px solid red; */
+        padding: 2% 3% 2% 3%;
+    }
+    #footer #ftr_contact {
+        padding-top: 2%;
+    }
+
+    #footer #ftr_contact #phone_border {
+        padding: 2% 2.5% 1% 2.5%;
+    }
+        
+    #ftr_contact p {
+        /* border: 1px solid red; */
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .phone_number {
+        font-size: 1em;
+    }
+
+    #footer #ftr_mail p {
+        font-size: 1em;
+    }
+
+    /*Footer ADDRESS*/
+    #footer #ftr_address {
+        /* border: 1px solid red; */
+        width: 30%;
+        padding-left: 2%;
+    }
+
+    #footer #ftr_address #location {
+        font-size: 1em;
+    }
+
+    #navbar #nav_logo {
+        /* border: 1px solid red; */
+        width: 12%;
+        display: inline-block;
+        margin-left: 15%;
+    }
+
+    #navbar #nav_logo img {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    #copyright {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 0.5% 8% 0.5% 8%;
+    }
+
+    /* CALLBACK MODAL */ 
+    #callback_modal {
+        top: 30%;
+        left: 40%;
+        /* border: 1px solid red; */
+        width: 20%;
+        padding-bottom: 2%;
+    }
+
+    #callback_modal input[type='tel'] {
+        /* border: 1px solid red; */
+        padding: 2% 0% 2% 3%;
+        width: 75%;
+    }
+
+    #callback_modal a {
+        /* border: 1px solid red; */
+        border-radius: 10px;
+    }
+
+    #callback_modal span img {
+        /* border: 1px solid red; */
+        width: 5%;
+        height: 10%;
+        position: absolute;
+        top: 12%;
+        right: 5%;
+    }
+
+    #callback { 
+        position: fixed;
+        top: 0%;
+        /* border: 1px solid red; */
+        z-index: 6;
+        width: 100%;
+        height: 100%;
+    }
+
+    #callback_overlay {
+        /* border: 1px solid red; */
+        content: 'HELLOWORLD';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        opacity: 0.9;
+    }
+}

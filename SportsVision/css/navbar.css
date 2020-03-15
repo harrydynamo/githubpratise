@@ -1,0 +1,32 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#navbar {
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    /* padding: 0.01% 0 0.2% 0; */
+    background-color: black;
+    z-index: 8;
+}
+
+#navbar ul {
+    /* border: 1px solid red; */
+    padding: 0%;
+    width: 90%;
+}
+
+#navbar ul li {
+    color: white;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-left: 1.5%;
+}
+
+#navbar ul li:nth-child(1) {
+    margin-left: 5.5%;
+}
